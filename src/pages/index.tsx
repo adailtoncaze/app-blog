@@ -15,7 +15,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <div className="w-full max-w-[1200px] flex flex-col mx-auto pb-12">
-      <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center">
           <Header />
           <ButtonContact />
         </div>
@@ -24,7 +24,7 @@ export default function Home() {
         <div className="flex items-center justify-center w-full h-full gap-8 mt-12 mb-12">
           <div className="flex flex-1 h-[334px] relative rounded-2xl overflow-hidden">
             <Image
-              src="https://images.prismic.io/launchdarkly/6bfcaa10-40a3-42a5-9346-9e83d25cbeb4_What's%20So%20Great%20About%20Next.js.png?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max"
+              src="https://images.unsplash.com/photo-1672309046475-4cce2039f342?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
               alt="Image post test"
               fill={true}
               style={{ objectFit: "cover" }}
@@ -50,15 +50,12 @@ export default function Home() {
           </div>
         </div>
         <div className="grid grid-cols-3 gap-8 mt-12">
-          <CardPost />
-          <CardPost />
-          <CardPost />
-          <CardPost />
-          <CardPost />
-          <CardPost />
-          <CardPost />
-          <CardPost />
-          <CardPost />
+          <CardPost title="Como desenvolver um Blog em Next.js" url="https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+          <CardPost title="Next.js no frontend" url="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80" />
+          <CardPost title="Blog com Next.js e Tailwind" url="https://images.unsplash.com/photo-1457305237443-44c3d5a30b89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80" />
+          <CardPost title="Como desenvolver um Blog em Next.js" url="https://images.unsplash.com/photo-1502951682449-e5b93545d46e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80" />
+          <CardPost title="Como desenvolver um Blog em Next.js" url="https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" />
+          <CardPost title="Como desenvolver um Blog em Next.js" url="https://images.unsplash.com/photo-1508739826987-b79cd8b7da12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80" />
         </div>
       </div>
     </>
