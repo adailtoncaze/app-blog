@@ -4,7 +4,7 @@ import { CardPost } from "@/components/CardPost";
 import { Header } from "@/components/Header";
 import Head from "next/head";
 import Image from "next/image";
-import { ButtonContact } from "@/components/ButtonContact";
+import Button from "@/components/Button";
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
       <div className="w-full max-w-[1200px] flex flex-col mx-auto pb-12">
         <div className="flex items-center justify-center">
           <Header />
-          <ButtonContact />
+          <Button link="/" value="Contato" />
         </div>
         <InputSearch />
         <NavBarFilter />

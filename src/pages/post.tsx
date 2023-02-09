@@ -1,7 +1,8 @@
 import { Header } from "@/components/Header";
-import { Button } from "@/components/Button";
+import Button from "@/components/Button";
 import Image from "next/image";
 import Head from "next/head";
+import { HiArrowSmLeft } from "react-icons/hi";
 export default function Post() {
   return (
     <>
@@ -14,7 +15,9 @@ export default function Post() {
       <div className="w-full max-w-[1200px] flex flex-col mx-auto pb-12">
         <div className="flex items-center justify-center">
           <Header />
-          <Button />
+          <Button link="/" value="Voltar">
+            <HiArrowSmLeft />
+          </Button>
         </div>
 
         <div className="flex flex-col w-full h-full mt-8">
