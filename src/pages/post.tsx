@@ -1,5 +1,5 @@
 import { Header } from "@/components/Header";
-import Button from "@/components/Button";
+import { Button } from "@/components/Button";
 import Image from "next/image";
 import Head from "next/head";
 import { HiArrowSmLeft } from "react-icons/hi";

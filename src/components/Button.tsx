@@ -6,7 +6,7 @@ interface Props {
   children?: React.ReactNode;
 }
 
-export default function Button(props: Props) {
+export function Button(props: Props) {
   return (
     <Link
       href={props.link}
